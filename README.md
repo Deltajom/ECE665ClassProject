@@ -2,19 +2,19 @@
 
 This project implements matrix multiplication using both the raw C++ standard library and SYCL for acceleration. It serves as a demonstration of matrix operations and the benefits of parallel computing.
 
-For a system with...
-CPU - 12900K
-RAM - 32 GB DDR5
-GPU - NVIDIA RTX 3090
+For a system with... \
+CPU - 12900K \
+RAM - 32 GB DDR5 \
+GPU - NVIDIA RTX 3090 
 
 the program showed as follows...
 
-Benchmarking matrix multiplication: 2048x2048 * 2048x2048
-[CPU] multiply took: 6518 ms
-SYCL is running on device: NVIDIA GeForce RTX 3090
-SYCL kernel execution time: 15.8628 ms
-[Check] SYCL C[0][0] = 41252
-Done.
+Benchmarking matrix multiplication: 2048x2048 * 2048x2048 \
+[CPU] multiply took: 6518 ms \
+SYCL is running on device: NVIDIA GeForce RTX 3090 \
+SYCL kernel execution time: 15.8628 ms \
+[Check] SYCL C[0][0] = 41252 \
+Done. 
 
 ## Project Structure
 
